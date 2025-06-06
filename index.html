@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product Card</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="product-card">
+      <div class="product-image">
+        <img src="https://via.placeholder.com/400x300" alt="Product Image" />
+      </div>
+      <div class="product-info">
+        <h2 class="product-title">
+          Sample Product Title That Might Be Too Long
+        </h2>
+        <div class="product-rating">
+          <span class="star filled">★</span>
+          <span class="star filled">★</span>
+          <span class="star filled">★</span>
+          <span class="star">★</span>
+          <span class="star">★</span>
+        </div>
+        <p class="product-description">
+          This is a short description of the product. It may be longer than
+          expected and needs truncation. It may be longer than expected and
+          needs truncation.
+        </p>
+        <div class="product-price">
+          <span class="current-price">$29.99</span>
+          <span class="old-price">$39.99</span>
+        </div>
+        <div class="stock-toggle">
+          <input type="checkbox" id="stockCheck" />
+          <div class="availability-wrapper">
+            <span class="availability in-stock">In stock</span>
+            <span class="availability out-of-stock">Out of stock</span>
+          </div>
+        </div>
+
+        <div class="product-actions">
+          <button class="buy-button">Buy</button>
+          <button class="favourite-button">♥</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
